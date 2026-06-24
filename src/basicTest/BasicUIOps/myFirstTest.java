@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 class myFirstTest{
 	public static void main(String[] args) {
 		
+		// Adding for git hub 
 		WebDriver d1 = new ChromeDriver();
 		d1.get("https://www.google.com/");
 		d1.manage().window().maximize();
